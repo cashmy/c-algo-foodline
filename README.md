@@ -15,7 +15,7 @@ From: LKP '18 Contest 2 P1 - Food Lines @ DMOJ.CA (competitve online Judge)
 * The first line contains two positive integers, *N* and *M* .
 * The second line contains *N* positive integers *a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>N</sub>*
 
-### Outpu Specifications
+### Output Specifications
 Print *M* lines, the *i*th of which being the length of the line that the *i*th person joined.
 
 ### Sample Input
