@@ -8,14 +8,14 @@ After many years of continuous warfare, the country of Collea was left in shambl
 
 ### Tech Stack
 
-Lang: C - MinGW-w64 compiler
-IDE:  VS Code
+* Lang: C - MinGW-w64 compiler
+* IDE:  VS Code
 
 ### Note
 
-The test case for repetative input is found in food.txt
-In order to redirect stdio with Powershell one of the following two solutions must be used:
-    1. Get-Content food.txt | .\foodlines.exe
-    2. cmd /c 'foodline < food.txt'
+The test case for repetative input is found in **food.txt** <br>
+In order to redirect *stdio* with Powershell one of the following two command line solutions must be used:
+1. "Get-Content food.txt | .\foodlines.exe"
+2. "cmd /c 'foodline < food.txt' "
 
 The normal cli "foodline < food.txt" will throw an error message with the current powershell environment (v7.2.6)
